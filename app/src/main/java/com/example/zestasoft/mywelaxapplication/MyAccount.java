@@ -1,0 +1,16 @@
+package com.example.zestasoft.mywelaxapplication;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+/**
+ * Created by Zestasoft on 21-10-2016.
+ */
+
+public class MyAccount extends Activity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.myaccount);
+    }
+}
